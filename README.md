@@ -7,3 +7,5 @@ A fancy calendar for Cotonti Siena.
 ## Installation ##
 1. Copy the plugin to your plugins folder.
 2. Install the plugin in the administration panel.
+
+![](http://twiebie.com/screenshots/calendar-prev.jpg)

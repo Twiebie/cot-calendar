@@ -245,7 +245,7 @@ $(document).ready(function () {
         eventMouseover: function (event, jsEvent, view) {
 
             var popStart = $.fullCalendar.formatDate(event.start, 'ddd dd MMM yyyy HH:mm');
-            var popEnd = $.fullCalendar.formatDate(event.end, 'ddd dd MMM yyyy HH:mm');
+            var popEnd   = $.fullCalendar.formatDate(event.end, 'ddd dd MMM yyyy HH:mm');
 
             $('.fc-event-inner', this).popover({
                 title: event.title,
