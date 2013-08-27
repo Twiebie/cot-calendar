@@ -1,8 +1,8 @@
-A calendar for Cotonti Siena.
+A fancy calendar for Cotonti Siena.
 
 ## Requirements ##
-1. [Cotonti](http://www.cotonti.com/) Siena 0.9.14 >
-2. [Bootstrap](http://getbootstrap.com/) 2 or 3.
+1. [Cotonti Siena](http://www.cotonti.com) 0.9.14 or higher
+2. [Twitter's Bootstrap](http://getbootstrap.com/) 2 or 3.
 
 ## Installation ##
 1. Copy the plugin to your plugins folder.

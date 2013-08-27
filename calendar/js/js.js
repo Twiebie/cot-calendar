@@ -20,7 +20,6 @@ $(document).ready(function () {
      * @param  {String}  upEnDate End date
      * @return {Boolean}          Return false
      */
-
     function doUpdate(upEvent, upStDate, upEnDate) {
         $.ajax({
             type: 'POST',
@@ -52,7 +51,6 @@ $(document).ready(function () {
      * Show error in modal
      * @param {Array} data Error data
      */
-
     function showError(data) {
         $('#calErrorModal h4').text(data.errorTitle);
         $('#calErrorModal .modal-body').text(data.errorMessage);
