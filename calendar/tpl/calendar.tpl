@@ -1,13 +1,4 @@
 <!-- BEGIN: MAIN -->
-<script src="{PHP.cfg.plugins_dir}/calendar/js/jquery-ui.min.js"></script>
-<script src="{PHP.cfg.plugins_dir}/calendar/js/fullcalendar.min.js"></script>
-<script src="{PHP.cfg.plugins_dir}/calendar/js/datetimepicker.min.js"></script>
-<script src="{PHP.cfg.plugins_dir}/calendar/js/simplecolorpicker.js"></script>
-<script src="{PHP.cfg.plugins_dir}/calendar/js/jquery.form.js"></script>
-<script src="{PHP.cfg.plugins_dir}/calendar/js/js.js"></script>
-<link href="{PHP.cfg.plugins_dir}/calendar/css/fullcalendar.css" rel="stylesheet" type="text/css" />
-<link href="{PHP.cfg.plugins_dir}/calendar/css/datetimepicker.css" rel="stylesheet" type="text/css" />
-<link href="{PHP.cfg.plugins_dir}/calendar/css/simplecolorpicker.css" rel="stylesheet" type="text/css" />
 <script>
 var cotXS          = '{PHP.sys.xk}';
 var cotUser        = '{PHP.usr.id}';

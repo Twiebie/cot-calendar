@@ -17,6 +17,7 @@ Hooks=standalone
 defined('COT_CODE') or die('Wrong URL.');
 
 require_once cot_incfile('calendar', 'plug');
+require_once cot_langfile('calendar', 'plug');
 
 $out['subtitle'] = $L['cal_maintitle'];
 

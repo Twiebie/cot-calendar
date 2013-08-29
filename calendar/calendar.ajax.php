@@ -32,8 +32,8 @@ switch ($a)
         if (isset($id) && $usr['auth_write'])
         {
             $owner = cot_import('owner', 'P', 'INT');
-            $start = $db->prep(cot_import('start', 'P', 'TXT'));
-            $end   = $db->prep(cot_import('end', 'P', 'TXT'));
+            $start = cot_import('start', 'P', 'TXT');
+            $end   = cot_import('end', 'P', 'TXT');
 
             if (calUpdate($id, $owner, $start, $end))
             {
@@ -53,11 +53,11 @@ switch ($a)
     case 'add';
         if ($usr['auth_write'])
         {
-            $start  = $db->prep(cot_import('start', 'P', 'TXT'));
-            $end    = $db->prep(cot_import('end', 'P', 'TXT'));
-            $title  = $db->prep(cot_import('title', 'P', 'TXT'));
-            $desc   = $db->prep(cot_import('desc', 'P', 'TXT'));
-            $color  = $db->prep(cot_import('colorpicker', 'P', 'TXT'));
+            $start  = cot_import('start', 'P', 'TXT');
+            $end    = cot_import('end', 'P', 'TXT');
+            $title  = cot_import('title', 'P', 'TXT');
+            $desc   = cot_import('desc', 'P', 'TXT');
+            $color  = cot_import('colorpicker', 'P', 'TXT');
             $allday = cot_import('allday', 'P', 'BOL');
             $public = cot_import('pub', 'P', 'BOL');
 
@@ -82,11 +82,11 @@ switch ($a)
         if (isset($id) && $usr['auth_write'])
         {
             $owner  = cot_import('owner', 'P', 'INT');
-            $start  = $db->prep(cot_import('start', 'P', 'TXT'));
-            $end    = $db->prep(cot_import('end', 'P', 'TXT'));
-            $title  = $db->prep(cot_import('title', 'P', 'TXT'));
-            $desc   = $db->prep(cot_import('desc', 'P', 'TXT'));
-            $color  = $db->prep(cot_import('colorpicker', 'P', 'TXT'));
+            $start  = cot_import('start', 'P', 'TXT');
+            $end    = cot_import('end', 'P', 'TXT');
+            $title  = cot_import('title', 'P', 'TXT');
+            $desc   = cot_import('desc', 'P', 'TXT');
+            $color  = cot_import('colorpicker', 'P', 'TXT');
             $allday = cot_import('allday', 'P', 'BOL');
             $public = cot_import('pub', 'P', 'BOL');
 

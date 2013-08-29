@@ -100,6 +100,7 @@ $(document).ready(function () {
             if (event.owner == cotUser) {
                 var stDate = $.fullCalendar.formatDate(event.start, 'u');
                 var enDate = $.fullCalendar.formatDate(event.end, 'u');
+                $('.fc-event-inner', this).popover('hide');
                 doUpdate(event, stDate, enDate);
             } else {
                 $('#calendar').fullCalendar('refetchEvents');
@@ -111,6 +112,7 @@ $(document).ready(function () {
             if (event.owner == cotUser) {
                 var stDate = $.fullCalendar.formatDate(event.start, 'u');
                 var enDate = $.fullCalendar.formatDate(event.end, 'u');
+                $('.fc-event-inner', this).popover('hide');
                 doUpdate(event, stDate, enDate);
             } else {
                 $('#calendar').fullCalendar('refetchEvents');
