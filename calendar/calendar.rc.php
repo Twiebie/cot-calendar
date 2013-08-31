@@ -26,4 +26,5 @@ cot_rc_add_file($cfg['plugins_dir'].'/calendar/js/jquery-ui.min.js');
 cot_rc_add_file($cfg['plugins_dir'].'/calendar/js/fullcalendar.min.js');
 cot_rc_add_file($cfg['plugins_dir'].'/calendar/js/datetimepicker.min.js');
 cot_rc_add_file($cfg['plugins_dir'].'/calendar/js/simplecolorpicker.js');
+cot_rc_add_file($cfg['plugins_dir'].'/calendar/js/jquery.form.js');
 cot_rc_add_file($cfg['plugins_dir'].'/calendar/js/js.js');
