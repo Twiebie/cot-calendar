@@ -1,4 +1,4 @@
-<?php
+<?php defined('COT_CODE') or die('Wrong URL.');
 /**
  * Calendar functions
  *
@@ -7,8 +7,6 @@
  * @copyright Copyright (c) www.digital-balance.net 2013
  * @license BSD
  */
-
-defined('COT_CODE') or die('Wrong URL.');
 
 require_once cot_incfile('forms');
 require_once cot_langfile('calendar', 'plug');

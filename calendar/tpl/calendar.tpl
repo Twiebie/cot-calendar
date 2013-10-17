@@ -1,5 +1,5 @@
 <!-- BEGIN: MAIN -->
-<link rel="stylesheet" href="{PHP.cfg.plugins_dir}/calendar/lib/css/bootstrap.min.css">
+<link rel="stylesheet" href="{PHP.cfg.mainurl}/{PHP.cfg.plugins_dir}/calendar/lib/bootstrap/css/bootstrap.calendar.min.css" type="text/css" />
 <script>
 var cotXS          = '{PHP.sys.xk}';
 var cotUser        = '{PHP.usr.id}';
@@ -154,5 +154,5 @@ var cotDaysShort   = ['{PHP.L.Sunday_s}', '{PHP.L.Monday_s}', '{PHP.L.Tuesday_s}
 <div id="loading"></div>
 <div id="calendar"></div>
 
-<script src="{PHP.cfg.plugins_dir}/calendar/lib/js/bootstrap.min.js"></script>
+<script src="{PHP.cfg.plugins_dir}/calendar/lib/bootstrap/js/bootstrap.calendar.min.js"></script>
 <!-- END: MAIN -->

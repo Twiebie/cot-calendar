@@ -1,10 +1,10 @@
-<?php
+<?php defined('COT_CODE') or die('Wrong URL');
 /* ====================
 [BEGIN_COT_EXT]
 Code=calendar
 Name=Calendar
-Description=A jQuery calendar for Cotonti Siena, built with Bootstrap.
-Version=0.9b
+Description=A calendar for Cotonti Siena.
+Version=1.0
 Date=27-08-2013
 Author=Twiebie
 Copyright=www.digital-balance.net 2013
@@ -28,5 +28,3 @@ Lock_members=12345A
  * @copyright Copyright (c) www.digital-balance.net 2013
  * @license BSD
  */
-
-defined('COT_CODE') or die('Wrong URL');

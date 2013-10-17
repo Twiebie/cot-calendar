@@ -1,4 +1,4 @@
-<?php
+<?php defined('COT_CODE') or die('Wrong URL.');
 /* ====================
 [BEGIN_COT_EXT]
 Hooks=standalone
@@ -13,8 +13,6 @@ Hooks=standalone
  * @copyright Copyright (c) www.digital-balance.net 2013
  * @license BSD
  */
-
-defined('COT_CODE') or die('Wrong URL.');
 
 require_once cot_incfile('calendar', 'plug');
 require_once cot_langfile('calendar', 'plug');

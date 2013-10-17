@@ -1,4 +1,4 @@
-<?php
+<?php defined('COT_CODE') or die('Wrong URL.');
 /* ====================
 [BEGIN_COT_EXT]
 Hooks=rc
@@ -6,15 +6,13 @@ Hooks=rc
 ==================== */
 
 /**
- * Calendar JS and CSS loader
+ * Calendar CSS and JS loader
  *
  * @package calendar
  * @author Twiebie
  * @copyright Copyright (c) www.digital-balance.net 2013
  * @license BSD
  */
-
-defined('COT_CODE') or die('Wrong URL.');
 
 // CSS
 cot_rc_add_file($cfg['plugins_dir'].'/calendar/css/fullcalendar.css');
