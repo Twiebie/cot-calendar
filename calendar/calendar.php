@@ -17,6 +17,19 @@ Hooks=standalone
 require_once cot_incfile('calendar', 'plug');
 require_once cot_langfile('calendar', 'plug');
 
+// CSS
+cot_rc_link_file($cfg['plugins_dir'].'/calendar/css/fullcalendar.css');
+cot_rc_link_file($cfg['plugins_dir'].'/calendar/css/datetimepicker.css');
+cot_rc_link_file($cfg['plugins_dir'].'/calendar/css/simplecolorpicker.css');
+
+// JS
+cot_rc_link_file($cfg['plugins_dir'].'/calendar/js/jquery-ui.min.js');
+cot_rc_link_file($cfg['plugins_dir'].'/calendar/js/jquery.form.js');
+cot_rc_link_file($cfg['plugins_dir'].'/calendar/js/fullcalendar.min.js');
+cot_rc_link_file($cfg['plugins_dir'].'/calendar/js/datetimepicker.min.js');
+cot_rc_link_file($cfg['plugins_dir'].'/calendar/js/simplecolorpicker.js');
+cot_rc_link_file($cfg['plugins_dir'].'/calendar/js/js.js');
+
 $out['subtitle'] = $L['cal_maintitle'];
 
 $t = new XTemplate(cot_tplfile('calendar', 'plug'));
