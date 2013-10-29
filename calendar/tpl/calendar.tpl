@@ -47,18 +47,18 @@ var cotDaysShort   = ['{PHP.L.Sunday_s}', '{PHP.L.Monday_s}', '{PHP.L.Tuesday_s}
           </div>
           <div class="form-group">
             <select name="colorpicker" id="colorpicker-inline" class="form-control">
-              <option value="#7bd148">{PHP.L.green}</option>
-              <option value="#5484ed">{PHP.L.boldblue}</option>
-              <option value="#a4bdfc">{PHP.L.blue}</option>
-              <option value="#46d6db">{PHP.L.turquoise}</option>
-              <option value="#7ae7bf">{PHP.L.lightgreen}</option>
-              <option value="#51b749">{PHP.L.boldgreen}</option>
-              <option value="#fbd75b">{PHP.L.yellow}</option>
-              <option value="#ffb878">{PHP.L.orange}</option>
-              <option value="#ff887c">{PHP.L.red}</option>
-              <option value="#dc2127">{PHP.L.boldred}</option>
-              <option value="#dbadff">{PHP.L.purple}</option>
-              <option value="#e1e1e1">{PHP.L.gray}</option>
+              <option value="#7bd148">{PHP.L.cal_green}</option>
+              <option value="#5484ed">{PHP.L.cal_boldblue}</option>
+              <option value="#a4bdfc">{PHP.L.cal_blue}</option>
+              <option value="#46d6db">{PHP.L.cal_turquoise}</option>
+              <option value="#7ae7bf">{PHP.L.cal_lightgreen}</option>
+              <option value="#51b749">{PHP.L.cal_boldgreen}</option>
+              <option value="#fbd75b">{PHP.L.cal_yellow}</option>
+              <option value="#ffb878">{PHP.L.cal_orange}</option>
+              <option value="#ff887c">{PHP.L.cal_red}</option>
+              <option value="#dc2127">{PHP.L.cal_boldred}</option>
+              <option value="#dbadff">{PHP.L.cal_purple}</option>
+              <option value="#e1e1e1">{PHP.L.cal_gray}</option>
             </select>
           </div>
         </div>
@@ -109,18 +109,18 @@ var cotDaysShort   = ['{PHP.L.Sunday_s}', '{PHP.L.Monday_s}', '{PHP.L.Tuesday_s}
           </div>
           <div class="form-group">
             <select name="colorpicker" class="form-control">
-              <option value="#7bd148">{PHP.L.green}</option>
-              <option value="#5484ed">{PHP.L.boldblue}</option>
-              <option value="#a4bdfc">{PHP.L.blue}</option>
-              <option value="#46d6db">{PHP.L.turquoise}</option>
-              <option value="#7ae7bf">{PHP.L.lightgreen}</option>
-              <option value="#51b749">{PHP.L.boldgreen}</option>
-              <option value="#fbd75b">{PHP.L.yellow}</option>
-              <option value="#ffb878">{PHP.L.orange}</option>
-              <option value="#ff887c">{PHP.L.red}</option>
-              <option value="#dc2127">{PHP.L.boldred}</option>
-              <option value="#dbadff">{PHP.L.purple}</option>
-              <option value="#e1e1e1">{PHP.L.gray}</option>
+              <option value="#7bd148">{PHP.L.cal_green}</option>
+              <option value="#5484ed">{PHP.L.cal_boldblue}</option>
+              <option value="#a4bdfc">{PHP.L.cal_blue}</option>
+              <option value="#46d6db">{PHP.L.cal_turquoise}</option>
+              <option value="#7ae7bf">{PHP.L.cal_lightgreen}</option>
+              <option value="#51b749">{PHP.L.cal_boldgreen}</option>
+              <option value="#fbd75b">{PHP.L.cal_yellow}</option>
+              <option value="#ffb878">{PHP.L.cal_orange}</option>
+              <option value="#ff887c">{PHP.L.cal_red}</option>
+              <option value="#dc2127">{PHP.L.cal_boldred}</option>
+              <option value="#dbadff">{PHP.L.cal_purple}</option>
+              <option value="#e1e1e1">{PHP.L.cal_gray}</option>
             </select>
           </div>
         </div>
